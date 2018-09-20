@@ -137,7 +137,7 @@ div {
           box-shadow: inset 2px 2px 0.1em #575f47;
   text-align: center;
   line-height: 1.6;
-  font-size: .65em;
+  font-size: .5em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -224,7 +224,7 @@ p:hover {
   }
 
   .location {
-    font-size: .5em;
+    font-size: .47em;
     padding: 8.33%;
   }
 
