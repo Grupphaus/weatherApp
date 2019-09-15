@@ -234,7 +234,7 @@ p:hover {
 }
 
 @media (max-width: 375px) {
-  .main {
+  main {
   width: 310px;
   }
 }
