@@ -28,8 +28,8 @@ body {
 main {
   opacity: 0;
   height: 300px;
-  width: 500px;
-  margin: 55px 0;
+  width: 550px;
+  margin: 50px 0;
   -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
           box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
   display: -ms-grid;
@@ -117,13 +117,14 @@ div {
       -ms-flex-pack: center;
           justify-content: center;
   font-size: 2.1em;
-  padding-left: 5%;
+  padding: 8px;
   word-spacing: -35px;
   border-right: 16px solid #179CC5;
   border-bottom: 8px solid #179CC5;
 }
 
 .location {
+  padding: 8px;
   -ms-grid-column: 6;
   -ms-grid-column-span: 3;
   grid-column: 6/9;
@@ -208,14 +209,13 @@ p:hover {
 
 @media (max-width: 640px) {
   main {
-    height: 300px;
-    width: 275px;
+    width: 370px;
     margin: 30px 0;
   }
 
   .display {
-    font-size: 1.3em;
-    word-spacing: -30px;
+    font-size: 1.1em;
+    word-spacing: -20px;
   }
 
   .range {
@@ -230,5 +230,11 @@ p:hover {
 
   .description {
     font-size: .7em;
+  }
+}
+
+@media (max-width: 375px) {
+  .main {
+  width: 310px;
   }
 }
