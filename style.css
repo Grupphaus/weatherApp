@@ -159,7 +159,7 @@ div {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-top: 25px;
+  margin-top: 16px;
   border-bottom: 16px solid #179CC5;
   border-left: 16px solid #179CC5;
   border-right: 8px solid #179CC5;
