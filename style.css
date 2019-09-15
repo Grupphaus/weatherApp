@@ -64,7 +64,6 @@ div {
   grid-column: 1/9;
   -ms-grid-row: 1;
   grid-row: 1;
-  padding-left: 16px;
   border-bottom: 8px solid #179CC5;
   background-color: #179CC5;
   color: #ededed;
@@ -92,8 +91,7 @@ div {
   padding: 8px;
   -webkit-box-shadow: inset 2px 2px 0.1em #575f47;
           box-shadow: inset 2px 2px 0.1em #575f47;
-  height: 190px;
-
+  height: 175px;
 }
 
 .display {
@@ -185,7 +183,7 @@ div {
 .icon {
   width: 50px;
   height: 50px;
-  margin-bottom: 25px;
+  margin-bottom: 16px;
   background-size: cover;
   opacity: .85;
 }
@@ -234,7 +232,7 @@ p:hover {
 
   .description {
     font-size: .7em;
-    height: 150px;
+    height: 125px;
   }
 }
 
